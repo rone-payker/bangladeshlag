@@ -1,0 +1,138 @@
+*{
+	padding: 0PX;
+	margin: 20PX;
+
+}
+body{
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 14px;
+	height: 2500px;
+
+}
+h1,h2, h3, h4, h5,h6{
+	font-family: monospace;
+}
+a{
+	text-decoration: none;
+}
+.a:hover{
+	text-decoration: none;
+}
+.tn{
+	color: blue;
+	text-align: center;
+}
+.a{
+	color: blue;
+	text-align: center;
+
+}
+.b{
+	color: blue;
+	text-align: center;
+
+}
+.n{
+	color: blue;
+	text-align: center;
+
+}
+
+.green{
+	 width: 700px;
+    height: 400px;
+    background: green;
+    position: relative;
+    border-radius: 4px;
+}
+.red{
+	width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+
+}
+.fb{
+	width: 100px;
+    position: fixed;
+    top: 20%;
+    right: -80px;
+}
+.fb:hover{
+	right: 2px;
+	transition: 2s;
+	cursor: pointer;
+}
+    
+
+.li{
+	width: 100px;
+    position: fixed;
+    top: 33%;
+    right: -80px;
+ }
+ .li:hover{
+ 	right: 2px;
+	transition: 2s;
+	cursor: pointer;
+
+ }
+ .tw{
+ 	width: 100px;
+    position: fixed;
+    top: 35%;
+    right: -80px;
+
+ }
+ .tw:hover{
+ 	right: 2px;
+	transition: 2s;
+	cursor: pointer;
+
+ }
+ .yt{
+ 	width: 100px;
+    position: fixed;
+    top: 49%;
+    right: -80px;
+
+ }
+ .yt:hover{
+ 	right: 2px;
+	transition: 2s;
+	cursor: pointer;
+
+ }
+ .social-icons{
+ 	width: 100%;
+    display: block;
+    text-align: center;
+    padding: 50px 0px 0px;
+ }
+ .social-icons li{
+ 	list-style: none;
+    display: inline-block;
+ }
+ .social-icons a{
+ 	display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    text-align: center;
+    background: blue;
+    margin: 0px 0px;
+    border-radius: 50%;
+    color: skyblue;
+    transition: 1s;
+ }
+  .social-icons a:hover{
+  	background: goldenrod;
+    color: lightyellow;
+  }
+
+ 
